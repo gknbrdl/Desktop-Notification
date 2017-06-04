@@ -2,7 +2,7 @@
 
 (function(){
 
-    angular.module('app').factory('DesktopNotification', DesktopNotification);
+    angular.module('Notification').factory('DesktopNotification', DesktopNotification);
 
 
     function DesktopNotification(CONFIG) {
