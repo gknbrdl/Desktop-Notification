@@ -5,7 +5,7 @@
     angular.module('Notification').factory('DesktopNotification', DesktopNotification);
 
 
-    function DesktopNotification(CONFIG) {
+    function DesktopNotification() {
         var factory = {};
         factory.show = show;
 
